@@ -19,7 +19,7 @@ border: 1px solid transparent;
 }
 .hero h1 { font-size: clamp(2rem, 3.8vw, 3rem); margin: 0; }
 .hero h1 span { color: #1e3a8a; } /* azul principal */
-.hero p { color: #93c5fd; margin: 0 0 1rem; }
+.hero p { color: black; margin: 0 0 1rem; }
 .cta { display: flex; gap: .75rem; flex-wrap: wrap; }
 .btn {
   display: inline-block; text-decoration: none; font-weight: 700;
