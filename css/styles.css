@@ -87,3 +87,27 @@ border: 1px solid transparent;
   color: #1e3a8a;
 }
 .textarea { min-height: 160px; resize: ver
+
+.contato-links {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(147,197,253,.15); /* fundo azul bem clarinho */
+  border: 1px solid #93c5fd;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contato-links a {
+  display: inline-block;
+  margin: .5rem;
+  padding: .6rem 1rem;
+  border-radius: .7rem;
+  background: #1e3a8a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contato-links a:hover {
+  background: #3b82f6; /* azul mais claro no hover */
+}
