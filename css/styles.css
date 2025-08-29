@@ -28,8 +28,8 @@ border: 1px solid transparent;
   border: 1px solid transparent;
 }
 .btn:hover { filter: brightness(1.05); }
-.btn-outline { background: transparent; color: #1e3a8a; border-color: #93c5fd; }
-.btn-outline:hover { background: #93c5fd; }
+.btn-outline { background: transparent; color: black; border-color: black; }
+.btn-outline:hover { background: white; }
 
 
 /* ===== Cartões e blocos ===== */
