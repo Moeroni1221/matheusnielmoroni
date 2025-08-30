@@ -1,4 +1,4 @@
-/ Reset e variáveis básicas /
+/ * ==Reset e variáveis básicas == */
 .menu a {
   color: var(--text); 
   text-decoration: none;
@@ -21,7 +21,7 @@
 
 
 
-/ Página inicial /
+/ * == Página inicial == * /
 .hero {
   display: grid; gap: 1rem; padding: 4.5rem 0 3rem;
 }
@@ -39,7 +39,7 @@
 .btn-outline { background: transparent; color: black; border-color: black; }
 .btn-outline:hover { background: white; }
 
-/ Cartões e blocos /
+/ * == Cartões e blocos == * /
 .card {
   background: linear-gradient(180deg, rgba(30,58,138,.85), rgba(30,58,138,.6)); /* azul no lugar do cinza escuro */
   border: 1px solid #93c5fd;
@@ -48,7 +48,7 @@
 }
 .card h2 { margin-top: 0; }
 
-/ Seções específicas /
+/ * == Seções específicas == */
 .grid {
   display: grid; gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
@@ -70,7 +70,7 @@
 .projeto p { color: #93c5fd; margin-top: .25rem; }
 
 
-/ Tabelas simples /
+/ * == Tabelas simples == */
 .table {
   width: 100%; border-collapse: collapse; overflow: hidden;
   border-radius: 12px; border: 1px solid #93c5fd;
@@ -82,7 +82,7 @@
 .table tr:last-child td { border-bottom: none; }
 
 
-/ Formulário de contato /
+/ * == Formulário de contato == * /
 .form {
   display: grid; gap: 1rem; max-width: 680px;
 }
@@ -96,7 +96,7 @@
 
 
   
-/ Estilos gerais para contato /
+/ * == Estilos gerais para contato == * /
 .contato-links {
   margin-top: 2rem;
   padding: 1.5rem;
