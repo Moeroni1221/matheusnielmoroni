@@ -1,33 +1,25 @@
-/ * ==Reset e variáveis básicas == */
-.menu a {
-  color: var(--text); 
-  text-decoration: none;
-  font-weight: 600;
-  padding: .55rem .85rem;
-  border-radius: .7rem;
-  border: 1px solid transparent;
+/* ===== Reset e variáveis básicas ===== */
+color: var(--text); text-decoration: none; font-weight: 600;
+padding: .55rem .85rem; border-radius: .7rem;
+border: 1px solid transparent;
 }
-
 .menu a:hover {
-  background: white; /* fundo branco no hover */
-  border-color: black;
+  background: #93c5fd; /* azul mais claro no hover */
+  border-color: #93c5fd;
 }
-
-.menu a.active,
-.menu a[aria-current="page"] {
+.menu a.active, .menu a[aria-current="page"] {
   background: #1e3a8a; /* azul principal */
   color: #fff;
 }
 
 
-
-/ * == Página inicial == * /
+/* ===== Hero (página inicial) ===== */
 .hero {
   display: grid; gap: 1rem; padding: 4.5rem 0 3rem;
 }
 .hero h1 { font-size: clamp(2rem, 3.8vw, 3rem); margin: 0; }
 .hero h1 span { color: #1e3a8a; } /* azul principal */
-.hero p { color: black; margin: 0 0 1rem; }
+.hero p { color: #93c5fd; margin: 0 0 1rem; }
 .cta { display: flex; gap: .75rem; flex-wrap: wrap; }
 .btn {
   display: inline-block; text-decoration: none; font-weight: 700;
@@ -36,10 +28,11 @@
   border: 1px solid transparent;
 }
 .btn:hover { filter: brightness(1.05); }
-.btn-outline { background: transparent; color: black; border-color: black; }
-.btn-outline:hover { background: white; }
+.btn-outline { background: transparent; color: #1e3a8a; border-color: #93c5fd; }
+.btn-outline:hover { background: #93c5fd; }
 
-/ * == Cartões e blocos == * /
+
+/* ===== Cartões e blocos ===== */
 .card {
   background: linear-gradient(180deg, rgba(30,58,138,.85), rgba(30,58,138,.6)); /* azul no lugar do cinza escuro */
   border: 1px solid #93c5fd;
@@ -48,7 +41,8 @@
 }
 .card h2 { margin-top: 0; }
 
-/ * == Seções específicas == */
+
+/* ===== Seções específicas ===== */
 .grid {
   display: grid; gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
@@ -70,7 +64,7 @@
 .projeto p { color: #93c5fd; margin-top: .25rem; }
 
 
-/ * == Tabelas simples == */
+/* Tabelas simples (idiomas/cursos) */
 .table {
   width: 100%; border-collapse: collapse; overflow: hidden;
   border-radius: 12px; border: 1px solid #93c5fd;
@@ -82,7 +76,7 @@
 .table tr:last-child td { border-bottom: none; }
 
 
-/ * == Formulário de contato == * /
+/* Formulário de contato (visual) */
 .form {
   display: grid; gap: 1rem; max-width: 680px;
 }
@@ -92,11 +86,19 @@
   border: 1px solid #93c5fd; background: rgba(147,197,253,.15);
   color: #1e3a8a;
 }
-.textarea { min-height: 160px; resize: ver
+.textarea { min-height: 160px; resize: vertical; }
+
+
+/* Rodapé */
+.site-footer {
+  margin-top: 3rem; border-top: 1px solid #93c5fd;
+  background: rgba(30,58,138,.2);
+}
+.site-footer .container { padding: 1.25rem 0; color: #93c5fd; }
 
 
   
-/ * == Estilos gerais para contato == * /
+/* ===== SEstilos Gerais para contato ===== */
 .contato-links {
   margin-top: 2rem;
   padding: 1.5rem;
