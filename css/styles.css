@@ -118,20 +118,20 @@
 }
 
 /* Botão verde do WhatsApp */
-.btn-whatsapp {
+.btn btn-whatsapp {
   background: #25D366; /* verde WhatsApp */
 }
 
-.btn-whatsapp:hover {
+.btn btn-whatsapp:hover {
   background: #1ebe5d; /* tom mais escuro */
 }
 
 /* Botão rosa/roxo do Instagram */
-.btn-instagram {
+.btn btn-instagram {
   background: #E1306C; /* rosa Instagram */
 }
 
-.btn-instagram:hover {
+.btn btn-instagram:hover {
   background: #c42a5c; /* tom mais escuro */
 }
 
