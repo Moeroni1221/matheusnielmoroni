@@ -88,10 +88,11 @@ border: 1px solid transparent;
 }
 .textarea { min-height: 160px; resize: ver
 
+/* Estilos gerais */
 .contato-links {
   margin-top: 2rem;
   padding: 1.5rem;
-  background: rgba(147,197,253,.15); /* fundo azul bem clarinho */
+  background: rgba(147,197,253,.15);
   border: 1px solid #93c5fd;
   border-radius: 12px;
   text-align: center;
@@ -100,14 +101,29 @@ border: 1px solid transparent;
 .contato-links a {
   display: inline-block;
   margin: .5rem;
-  padding: .6rem 1rem;
+  padding: .6rem 1.2rem;
   border-radius: .7rem;
-  background: #1e3a8a;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+  transition: background .3s ease;
 }
 
-.contato-links a:hover {
-  background: #3b82f6; /* azul mais claro no hover */
+/* Botão verde do WhatsApp */
+.btn-whatsapp {
+  background: #25D366; /* verde WhatsApp */
 }
+
+.btn-whatsapp:hover {
+  background: #1ebe5d; /* tom mais escuro */
+}
+
+/* Botão rosa/roxo do Instagram */
+.btn-instagram {
+  background: #E1306C; /* rosa Instagram */
+}
+
+.btn-instagram:hover {
+  background: #c42a5c; /* tom mais escuro */
+}
+
