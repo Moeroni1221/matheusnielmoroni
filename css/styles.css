@@ -8,8 +8,8 @@ border: 1px solid transparent;
   border-color: #93c5fd;
 }
 .menu a.active, .menu a[aria-current="page"] {
-  background: #1e3a8a; /* azul principal */
-  color: #fff;
+  background: white 
+  color: black;
 }
 
 
@@ -19,7 +19,7 @@ border: 1px solid transparent;
 }
 .hero h1 { font-size: clamp(2rem, 3.8vw, 3rem); margin: 0; }
 .hero h1 span { color: #1e3a8a; } /* azul principal */
-.hero p { color: #93c5fd; margin: 0 0 1rem; }
+.hero p { color: black; margin: 0 0 1rem; }
 .cta { display: flex; gap: .75rem; flex-wrap: wrap; }
 .btn {
   display: inline-block; text-decoration: none; font-weight: 700;
@@ -28,8 +28,8 @@ border: 1px solid transparent;
   border: 1px solid transparent;
 }
 .btn:hover { filter: brightness(1.05); }
-.btn-outline { background: transparent; color: #1e3a8a; border-color: #93c5fd; }
-.btn-outline:hover { background: #93c5fd; }
+.btn-outline { background: transparent; color: black; border-color: black; }
+.btn-outline:hover { background: white; }
 
 
 /* ===== Cartões e blocos ===== */
