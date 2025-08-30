@@ -1,6 +1,6 @@
-/* ===== Reset e variáveis básicas ===== */
+/ Reset e variáveis básicas /
 .menu a {
-  color: var(--text); /* precisa estar definido em :root */
+  color: var(--text); 
   text-decoration: none;
   font-weight: 600;
   padding: .55rem .85rem;
@@ -21,7 +21,7 @@
 
 
 
-/* ===== Hero (página inicial) ===== */
+/Página inicial/
 .hero {
   display: grid; gap: 1rem; padding: 4.5rem 0 3rem;
 }
@@ -50,7 +50,7 @@
 .card h2 { margin-top: 0; }
 
 
-/* ===== Seções específicas ===== */
+/ Seções específicas /
 .grid {
   display: grid; gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
@@ -72,7 +72,7 @@
 .projeto p { color: #93c5fd; margin-top: .25rem; }
 
 
-/* Tabelas simples (idiomas/cursos) */
+/ Tabelas simples /
 .table {
   width: 100%; border-collapse: collapse; overflow: hidden;
   border-radius: 12px; border: 1px solid #93c5fd;
@@ -84,7 +84,7 @@
 .table tr:last-child td { border-bottom: none; }
 
 
-/* Formulário de contato (visual) */
+/ Formulário de contato /
 .form {
   display: grid; gap: 1rem; max-width: 680px;
 }
@@ -96,7 +96,7 @@
 }
 .textarea { min-height: 160px; resize: ver
 
-/* Estilos gerais */
+/ Estilos gerais para contato /
 .contato-links {
   margin-top: 2rem;
   padding: 1.5rem;
