@@ -117,21 +117,4 @@
   transition: background .3s ease;
 }
 
-/* Botão verde do WhatsApp */
-.btn btn-whatsapp {
-  background: green; /* verde WhatsApp */
-}
-
-.btn btn-whatsapp:hover {
-  background: darkgreen; /* tom mais escuro */
-}
-
-/* Botão rosa/roxo do Instagram */
-.btn btn-instagram {
-  background: pink; /* rosa Instagram */
-}
-
-.btn btn-instagram:hover {
-  background: darkpink; /* tom mais escuro */
-}
 
