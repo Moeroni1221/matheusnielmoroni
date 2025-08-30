@@ -119,19 +119,19 @@
 
 /* Botão verde do WhatsApp */
 .btn btn-whatsapp {
-  background: #25D366; /* verde WhatsApp */
+  background: green; /* verde WhatsApp */
 }
 
 .btn btn-whatsapp:hover {
-  background: #1ebe5d; /* tom mais escuro */
+  background: darkgreen; /* tom mais escuro */
 }
 
 /* Botão rosa/roxo do Instagram */
 .btn btn-instagram {
-  background: #E1306C; /* rosa Instagram */
+  background: pink; /* rosa Instagram */
 }
 
 .btn btn-instagram:hover {
-  background: #c42a5c; /* tom mais escuro */
+  background: darkpink; /* tom mais escuro */
 }
 
