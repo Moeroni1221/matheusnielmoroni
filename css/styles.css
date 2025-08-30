@@ -21,7 +21,7 @@
 
 
 
-/Página inicial/
+/ Página inicial /
 .hero {
   display: grid; gap: 1rem; padding: 4.5rem 0 3rem;
 }
@@ -39,14 +39,7 @@
 .btn-outline { background: transparent; color: black; border-color: black; }
 .btn-outline:hover { background: white; }
 
-/ Cartões e blocos /
-.card {
-  background: linear-gradient(180deg, rgba(30,58,138,.85), rgba(30,58,138,.6)); /* azul no lugar do cinza escuro */
-  border: 1px solid #93c5fd;
-  border-radius: 16px; padding: 1.25rem;
-  box-shadow: 0 8px 28px rgba(0,0,0,.25);
-}
-.card h2 { margin-top: 0; }
+
 
 / Formulário de contato /
 .form {
@@ -60,6 +53,8 @@
 }
 .textarea { min-height: 160px; resize: ver
 
+
+  
 / Estilos gerais para contato /
 .contato-links {
   margin-top: 2rem;
