@@ -1,16 +1,24 @@
 /* ===== Reset e variáveis básicas ===== */
-color: var(--text); text-decoration: none; font-weight: 600;
-padding: .55rem .85rem; border-radius: .7rem;
-border: 1px solid transparent;
+.menu a {
+  color: var(--text); /* precisa estar definido em :root */
+  text-decoration: none;
+  font-weight: 600;
+  padding: .55rem .85rem;
+  border-radius: .7rem;
+  border: 1px solid transparent;
 }
+
 .menu a:hover {
-  background: white; /* azul mais claro no hover */
+  background: white; /* fundo branco no hover */
   border-color: black;
 }
-.menu a.active, .menu a[aria-current="page"] {
+
+.menu a.active,
+.menu a[aria-current="page"] {
   background: #1e3a8a; /* azul principal */
   color: #fff;
 }
+
 
 
 /* ===== Hero (página inicial) ===== */
