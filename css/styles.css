@@ -39,8 +39,7 @@
 .btn-outline { background: transparent; color: black; border-color: black; }
 .btn-outline:hover { background: white; }
 
-
-/* ===== Cartões e blocos ===== */
+/ Cartões e blocos /
 .card {
   background: linear-gradient(180deg, rgba(30,58,138,.85), rgba(30,58,138,.6)); /* azul no lugar do cinza escuro */
   border: 1px solid #93c5fd;
@@ -48,41 +47,6 @@
   box-shadow: 0 8px 28px rgba(0,0,0,.25);
 }
 .card h2 { margin-top: 0; }
-
-
-/ Seções específicas /
-.grid {
-  display: grid; gap: 1rem;
-  grid-template-columns: repeat(12, 1fr);
-}
-.grid-portfolio > article {
-  grid-column: span 12;
-}
-@media (min-width: 640px) {
-  .grid-portfolio > article { grid-column: span 6; }
-}
-@media (min-width: 980px) {
-  .grid-portfolio > article { grid-column: span 4; }
-}
-.projeto img {
-  width: 100%; height: 180px; object-fit: cover; border-radius: 12px;
-  border: 1px solid #93c5fd;
-}
-.projeto h3 { margin-bottom: .25rem; }
-.projeto p { color: #93c5fd; margin-top: .25rem; }
-
-
-/ Tabelas simples /
-.table {
-  width: 100%; border-collapse: collapse; overflow: hidden;
-  border-radius: 12px; border: 1px solid #93c5fd;
-}
-.table th, .table td {
-  padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #93c5fd;
-}
-.table th { background: rgba(147,197,253,.25); } /* azul mais claro no header */
-.table tr:last-child td { border-bottom: none; }
-
 
 / Formulário de contato /
 .form {
