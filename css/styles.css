@@ -8,7 +8,7 @@ border: 1px solid transparent;
   border-color: #93c5fd;
 }
 .menu a.active, .menu a[aria-current="page"] {
-  background: white 
+  background: white;
   color: black;
 }
 
